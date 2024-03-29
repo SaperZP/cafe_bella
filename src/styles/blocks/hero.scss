@@ -1,0 +1,16 @@
+.hero {
+  padding-top: 20px;
+  background-image: url('/src/assets/images/cafe.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+
+  &__title {
+    font-size: 48px;
+  }
+
+  &__text {
+    font-size: 36px;
+  }
+}

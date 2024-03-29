@@ -1,0 +1,17 @@
+.page {
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+
+  &__main {
+    flex-grow: 1;
+  }
+}
+
